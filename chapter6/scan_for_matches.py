@@ -51,7 +51,7 @@ for d in descriptors:
 
 max_matches = None
 potential_suspect = None
-for culprit, matches in potential_culprits.iteritems():
+for culprit, matches in potential_culprits.items():
   if max_matches == None or matches > max_matches:
     max_matches = matches
     potential_suspect = culprit
